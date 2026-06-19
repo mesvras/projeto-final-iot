@@ -10,6 +10,7 @@ O projeto consiste num protótipo de sistema de monitoramento de condições amb
 
 ### TODO:
 
+- [ ] Corrigir o fato que registros de coleta de sessões diferentes estão sendo considerados como fontes diferentes no grafana (reconhece hosts diferentesa cada ciclo de vida dos containers)
 - [ ] Passar o token do influxdb2 para o telegraf via injeção
 - [ ] Configurar container de VPN server na "frente" da rede
 - [ ] Melhorar o dashboard
