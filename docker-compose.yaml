@@ -32,6 +32,7 @@ services:
 
   telegraf:
     image: telegraf
+    hostname: hw-telegraf
     volumes:
       - "./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf"
 
